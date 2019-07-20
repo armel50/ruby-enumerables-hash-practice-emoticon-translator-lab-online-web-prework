@@ -11,11 +11,11 @@ def load_library(file)
   file.each do |key,val|  
     p val[1]
      hash["get_meaning"] ={
-      # "#{val[1]}" => "#{val[0]}"
+       "#{val[1]}" => "#{val[0]}"
      }
      
-     hash["get_emoticon"][key] ={
-       #"#{val[0]}" => "#{val[1]}"
+     hash["get_emoticon"] ={
+       "#{val[0]}" => "#{val[1]}"
      }
   end
            
