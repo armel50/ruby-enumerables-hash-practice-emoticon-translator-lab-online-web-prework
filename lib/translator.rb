@@ -29,7 +29,7 @@ def get_japanese_emoticon(file,emoticons)
   hash = load_library(file)
   #p hash["get_emoticon"]
   hash["get_emoticon"].each do |key, val|
-    p key
+      p key
    end
   
 end
