@@ -25,7 +25,7 @@ def load_library(file)
 end 
 
 
-def get_japanese_emoticon(file)
+def get_japanese_emoticon(file,emoticons)
   load_library(file)
   # code goes here
 end
