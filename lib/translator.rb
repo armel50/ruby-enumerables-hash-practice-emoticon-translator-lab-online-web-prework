@@ -14,6 +14,7 @@ def load_library(file)
        "#{val[1]}" => "#{val[0]}"
      }
      
+     
      hash["get_emoticon"] ={
        "#{val[0]}" => "#{val[1]}"
      }
