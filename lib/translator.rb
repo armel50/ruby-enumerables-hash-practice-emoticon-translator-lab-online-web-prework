@@ -36,6 +36,10 @@ def get_japanese_emoticon(file,emoticons)
      
       end
    end
+   
+   if !array.include?(emoticons)
+     return ""
+   end
   
 end
 
