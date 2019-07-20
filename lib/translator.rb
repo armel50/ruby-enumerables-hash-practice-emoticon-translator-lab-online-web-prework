@@ -30,7 +30,8 @@ def get_japanese_emoticon(file,emoticons)
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(file, emoticons)
+  load_library(file)
   # code goes here
 end   
  
