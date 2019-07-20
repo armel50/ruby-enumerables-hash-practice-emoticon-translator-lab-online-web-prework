@@ -9,7 +9,7 @@ def load_library(file)
    hash["get_emoticon"] = {}
   
   file.each do |key,val|  
-    p val[0]
+    p val[1]
      hash["get_meaning"] ={
       # "#{val[0]}" => "#{val[1]}"
      }
