@@ -41,7 +41,9 @@ end
 def get_english_meaning(file, emoticons)
   hash = load_library(file)
   # code goes here
+  array = []
   hash["get_meaning"].each do |key,val|
+    array.push(key)
     if key == emoticons
        return val
      else
