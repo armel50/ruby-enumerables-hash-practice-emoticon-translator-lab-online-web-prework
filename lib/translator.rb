@@ -9,10 +9,11 @@ def load_library(file)
    hash["get_emoticon"] = {}
   
   file.each do |key,val| 
-    p val[1]
+    #p val[1]
     
-      # if !hash["get_meaning"][val[1]]
-      # end
+      if !hash["get_meaning"][val[1]]
+        hash["get_meaning"][val[1]] = key
+       end
   end
            
   hash
