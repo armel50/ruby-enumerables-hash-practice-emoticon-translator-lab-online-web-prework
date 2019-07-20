@@ -39,6 +39,10 @@ end
 def get_english_meaning(file, emoticons)
   hash = load_library(file)
   # code goes here
-  p hash["get_meaning"]
+  hash["get_meaning"].each do |key,val|
+    if key == emoticons
+       return val
+    end
+  end
 end   
  
