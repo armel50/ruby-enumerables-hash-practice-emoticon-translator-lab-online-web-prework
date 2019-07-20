@@ -39,5 +39,6 @@ end
 def get_english_meaning(file, emoticons)
   load_library(file)
   # code goes here
+  p hash["get_meaning"]
 end   
  
