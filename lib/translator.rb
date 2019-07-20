@@ -31,8 +31,7 @@ def get_japanese_emoticon(file,emoticons)
   hash["get_emoticon"].each do |key, val|
       if key == emoticons
         return val
-      else
-        return "Sorry, that emoticon was not found"
+     
       end
    end
   
@@ -40,14 +39,13 @@ end
 
 def get_english_meaning(file, emoticons)
   hash = load_library(file)
-  # code goes here
+ 
   array = []
   hash["get_meaning"].each do |key,val|
     array.push(key)
     if key == emoticons
        return val
-     else
-       return "Sorry, that emoticon was not found"
+     
     end
   end
 end   
