@@ -13,11 +13,14 @@ def load_library(file)
      hash["get_meaning"] ={
        "#{val[1]}" => "#{key}"
      }
+     val[1] 
+     key
      
      
      hash["get_emoticon"] ={
        "#{val[0]}" => "#{key}"
      }
+     
   end
            
   hash
