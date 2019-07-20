@@ -14,6 +14,10 @@ def load_library(file)
       if !hash["get_meaning"][val[1]]
         hash["get_meaning"][val[1]] = key
        end
+       
+        if !hash["get_emoticon"][val[0]]
+        hash["get_emoticon"][val[0]] = val[1]
+       end
   end
            
   hash
